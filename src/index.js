@@ -5,9 +5,6 @@ import debounce from 'lodash.debounce'
 
 const DEBOUNCE_DELAY = 300;
 
-const debounce = require('lodash.debounce');
-
-
 const inputEl = document.querySelector('#search-box');
 const countriesListEl = document.querySelector('.country-list');
 const cardContainerEl = document.querySelector('.country-info');
